@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "test-sample21": {
+    "test-sample": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -54,10 +54,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "test-sample21:build:production"
+              "buildTarget": "test-sample:build:production"
             },
             "development": {
-              "buildTarget": "test-sample21:build:development"
+              "buildTarget": "test-sample:build:development"
             }
           },
           "defaultConfiguration": "development"
